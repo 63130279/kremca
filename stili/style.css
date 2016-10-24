@@ -1,0 +1,92 @@
+html, body {
+    background-color: WHITE;
+    height: 100%;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.glava img{
+    height: auto;
+    margin: 5px 0;
+}
+.glava nav {
+    background-color: WHITE;
+    height:50px;
+}
+.glava nav ul{
+    text-align:center;
+    list-style: none;
+    margin: 0 auto;
+}
+.glava nav ul li {
+    float: none;
+    display: inline;
+    
+}
+.glava nav a:link, .glava nav a:visited {
+    display: inline-block;
+    padding: 9px 50px;
+}
+.naslovnica{
+    height:auto;
+    width: auto;
+}
+.naslovnica table {
+    text-align: center;
+}
+.metulcki_levo {
+    float:left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content {
+    float: none;
+}
+.metulcki_desno {
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.body {
+    margin: 0 auto;
+    width:70%;
+    clear: both;
+}
+h1 {
+    font-size: 600%;
+}
+
+#pas {
+    width:100%;
+    height:40px;
+    background-color: hsl(210, 4%, 90%);
+    border: 1px;
+    border-style: solid;
+    border-color: black hsl(210, 4%, 90%) black hsl(210, 4%, 90%);
+}
+hr {
+height: 1px;
+color: #00000;
+background-color: #00000;
+border: none;
+}
+#siva{
+    color: hsl(0, 0%, 60%);
+    background-color: hsl(0, 0%, 60%);
+}
+#sivoBela {
+    height:3px;
+    color: hsl(0, 0%, 83%);
+    background-color: hsl(0, 0%, 83%);
+}
+#pink {
+    height:6px;
+    color: hsl(334,  80%, 78%);
+    background-color: hsl(334,  80%, 78%);
+}
+table {
+    width:100%;
+}
